@@ -1,0 +1,7 @@
+C:\work\PartialViewTemplatesSample\bin\PartialViewTemplatesSample.dll
+C:\work\PartialViewTemplatesSample\bin\PartialViewTemplatesSample.pdb
+C:\work\PartialViewTemplatesSample\bin\EntityFramework.dll
+C:\work\PartialViewTemplatesSample\bin\EntityFramework.xml
+C:\work\PartialViewTemplatesSample\obj\Debug\ResolveAssemblyReference.cache
+C:\work\PartialViewTemplatesSample\obj\Debug\PartialViewTemplatesSample.dll
+C:\work\PartialViewTemplatesSample\obj\Debug\PartialViewTemplatesSample.pdb

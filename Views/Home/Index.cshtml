@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@if (string.IsNullOrEmpty(ViewBag.Name))
+{
+using (Html.BeginForm())
+{
+    <p>
+    Enter your login name:
+    <input type="text" id="name" name="name" />
+    <input type="submit" value="LogIn" />
+    </p>
+}
+}
+
+<div id="container">
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("script[type='text/template']").each(function () {
+            var id = $(this).attr("id");
+            var template = $("#" + id).html();
+            var templateOutput = _.template(template, {});
+
+            $("#container").append("<div style='margin-bottom:20px'>Template: " + id + "<p style='border:1px solid #000'>" + templateOutput + "</p></div>");
+
+        });
+
+
+    });
+</script>
+
+@Html.RenderAllTemplates("~/Views/Home")
+

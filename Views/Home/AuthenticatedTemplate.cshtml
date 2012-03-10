@@ -1,0 +1,7 @@
+﻿@{ 
+    var message = string.IsNullOrEmpty(ViewBag.Name)
+                 ? "You are not logged in."
+                 : "Hello, " + ViewBag.Name + ".  You can see extra stuff because you are logged in.";
+                 }
+
+@message
